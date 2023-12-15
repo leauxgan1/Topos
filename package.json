@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "interact.js": "^1.2.8"
-  }
+    "express": "^4.18.2",
+    "interact.js": "^1.2.8",
+    "redis": "^4.6.11"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "topos",
+  "description": "A pragmatic notetaking app offering nesting of cards within each other.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leauxgan1/Topos.git"
+  },
+  "author": "Logan Langdon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leauxgan1/Topos/issues"
+  },
+  "homepage": "https://github.com/leauxgan1/Topos#readme"
 }

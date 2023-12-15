@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "./styles/main.css" rel = "stylesheet">
+    <link href = "./main.css" rel = "stylesheet">
     <link rel="shortcut icon" href="#">
     <title>Document</title>
 </head>
@@ -12,23 +12,26 @@
     <div id="header">
         <ul>
             <li>
+                <div id="AddCardButton">
+                    <button onclick="createCard()"> Add Card</button>
+                </div>
+            </li>
+            <li>
                 <div id="title">
                     <h1> Topos </h1>
                 </div>
             </li>
             <li>
                 <div id="AddCardButton">
-                    <button onclick="createCard()"> Add Card</button>
-                </div>
+                    <a href="./login.html">
+                        <button> Login/Sign-up </button>
+                    </a>        </div>
             </li>
         </ul>
         
     </div>
     <div id="NoteArea">
         <div id="AddCard"></div>
-        <!-- <div class="Note" style = "transform: translateX(0px)"></div> -->
-        <!-- <div class="Note" style = "transform: translateX(200px)"></div> 
-        <div class="Note" style = "transform: translateX(400px)"></div> -->
     </div>
     
     <div id="info">
